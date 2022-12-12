@@ -3,16 +3,18 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-public class Motor : MonoBehaviour
+public class Enemy_Motor : MonoBehaviour
 {
     public float moveSpeed = 5f;
     public Vector2 movement;
     public bool is_attacking;
     public Rigidbody2D rb;
     public Animator anim;
+    public Transform player;
 
-    void OnMovement(InputValue value){
-        movement = value.Get<Vector2>();
+    void Update(){
+        movement = player.position - transform.position;
+        movement.Normalize();
         anim.SetFloat("movement_x", movement.x);
         anim.SetFloat("movement_y", movement.y);
         anim.SetFloat("movement_speed", movement.magnitude);
