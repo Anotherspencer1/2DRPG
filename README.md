@@ -6,7 +6,7 @@ I designed this game to learn unity and practice some basic 2D game developement
 
 Provide a link to your YouTube demonstration.  It should be a 4-5 minute demo of the game being played and a walkthrough of the code.
 
-[Top Down RPG Demo](https://youtu.be/1tg1IcyRHUs)
+[Top Down RPG Demo](https://youtu.be/cqetZQDchW8)
 
 # Development Environment
 
