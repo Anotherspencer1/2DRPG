@@ -1,6 +1,6 @@
 # 2DRPG
 
-This is a simple top down 2DRPG. The player uses WASD to control the player and can attack with space bar. There currently aren't any enemies.
+This is a simple top down 2DRPG. The player uses WASD to control the player and can attack with space bar. Enemies slowly move towards the Player
 
 I designed this game to learn unity and practice some basic 2D game developement.
 
@@ -22,6 +22,6 @@ Make a list of websites that you found helpful in this project
 # Future Work
 
 There are still some core features to be added. These include:
-* Enemies with basic AI
-* Player hitbox and health system
-* Scoring system and death screen
+* Collision trigger to detect and handle health loss
+* Working health and damage system
+* Scoring system and start screen
